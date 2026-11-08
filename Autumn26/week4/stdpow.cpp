@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+double mypow(double base, int exp) {
+    double acc = 1;
+    for(int i=0; i<exp; i++) {
+        acc = acc*base;
+    }
+
+    return acc;
+}
+
+int main() {
+    std::cout << "2^3: " << mypow(2, 3) << std::endl;
+    std::cout << "0.5^2: " << mypow(0.5, 2) << std::endl;
+    std::cout << "1^0: " << mypow(1, 0) << std::endl;
+}

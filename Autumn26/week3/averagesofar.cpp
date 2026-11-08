@@ -4,8 +4,9 @@ int main(){
 
     bool run = true;
     double sum = 0;
-    double num = 0
-    double n = 0;
+    double num = 0;
+    int n = 0;
+    
     while(run) {
         std::cin >> n;
         if(n==0) {
